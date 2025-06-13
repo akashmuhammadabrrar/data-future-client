@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from '../common/Navbar';
+import TopBanner from '../components/TopBanner';
 
 const Home: React.FC = () => {
   return (
     <main className="min-h-screen bg-gray-100">
         <Navbar></Navbar>
-      <h1 className="text-5xl font-bold text-gray-800" >
-        Welcome to Our Website
-      </h1>
+        <TopBanner></TopBanner>
+      
     </main>
   );
 };
